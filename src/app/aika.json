@@ -1,0 +1,14 @@
+{
+    "name": "aika_landing_page",
+    "version": "0.1.0",
+    "galeri": [
+        {
+            "imageName": "image1",
+            "url": "/image1.png"
+        },
+       {
+            "imageName": "image3",
+            "url": "/image2.png"
+        }
+    ]
+}
