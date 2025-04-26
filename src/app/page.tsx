@@ -11,7 +11,7 @@ export default function Home() {
     <div className="w-screen mx-auto">
       <Provider store={store}>
            <Hero />
-          <div className="bg-slate-200 w-full h-20">
+          <div className="bg-pink-200 w-full h-20">
 
           </div>
           <Navbar/>
