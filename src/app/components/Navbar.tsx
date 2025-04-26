@@ -4,6 +4,7 @@ import { CiDark } from 'react-icons/ci'
 import { useDispatch, useSelector } from 'react-redux';
 import { setDarkMode } from '../redux/slice/themeSlice';
 import { IoSunnyOutline } from 'react-icons/io5';
+import { FaInstagram } from 'react-icons/fa';
 
 export default function Navbar() {
     type RootState = {
@@ -28,7 +29,7 @@ export default function Navbar() {
     }
 
     const handleChangeTheme = () => {
-        dispatch(setDarkMode(!themeLight))
+        // dispatch(setDarkMode(!themeLight))
         // alert(theme)
      
     }
@@ -53,11 +54,13 @@ export default function Navbar() {
     ]
 
     return (
-        <div className={`mb-40 w-full h-15 md:h-27 border-b border-black flex justify-between items-center shadow-lg sticky top-0 z-50 ${themeLight ? "bg-gray-800 text-white" : "bg-white text-black"} transition-colors duration-500 ease-in-out`}>
+        <div className={` w-full h-15 md:h-27 border-b border-black flex justify-between items-center shadow-lg sticky top-0 ${themeLight ? "bg-gray-800 text-white" : "bg-white text-black"} transition-colors duration-500 ease-in-out`}>
     
-            <div className=' items-center text-center jus'>
+            <div className=' items-center text-center flex gap-2'>
                 {/* <Image src="/logo_company_example(1).png" alt="logo" width={200} height={500} /> */}
-                {themeLight &&     <div className='font-bold text-2xl ms-40 text-red-500 italic' >Work in progress</div>}
+                {/* {themeLight &&     <div className='font-bold text-2xl ms-40 text-red-500 italic' >Work in progress</div>} */}
+                <p className='text-2xl ms-10'>Aika Site</p>
+                <p className='hover:cursor-pointer' onClick={() => window.open("https://www.instagram.com/aikaaa.vi/","_blank")} ><FaInstagram /></p>
             </div>
             <div className='gap-10 me-20 hidden md:flex'>
                 {menu.map((item, index) => {

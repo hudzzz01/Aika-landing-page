@@ -17,7 +17,7 @@ export default function Hero() {
         setColorname(colorName === 'one' ? 'two' : colorName === 'two' ? 'tree' : 'one');
     }, 1500);
   return (
-    <div className='w-full h-140 hover:mt-10 transistion-all duration-500 bg-[url(/bg_aika.png)] hover:scale-110 sm:w-full sm:h-130 lg:h-150 xl:h-200 2xl:h-screen bg-cover flex flex-row pt-20 lg:ps-30'>
+    <div className='w-full h-140 hover:mt-10 transistion-all duration-500 bg-[url(/bg_aika.png)] hover:scale-110 sm:w-full sm:h-130 lg:h-150 xl:h-200 2xl:h-300 bg-cover flex flex-row pt-20 lg:ps-30'>
         <div className='w-2/5 sm:w-1/2 lg:w-2/5 flex h-100 justify-center items-center'>
             <div className=' hover:ps-10 sm:hover:p-s0 cursor-pointer sm:h-100 2xl:h-110 2xl:w-full h-110 lg:h-110 w-200 p-6 bg-white h-130 lg:rounded-tr-full xl:rounded-br-2xl xl:pt-12 xl:ps-0 2xl:rounded-tl-full 2xl:rounded-tr-none 2xl:rounded-br-2xl rounded-br-full shadow-2xl hover:shadow-3xl hover:scale-105 sm:hover:scale-110 transition-all duration-500'>
                 <div className='2xl:ps-60 lg:ps-10'>
@@ -86,9 +86,9 @@ export default function Hero() {
         </div>
         <div className='w-3/5 sm:w-1/2 lg:w-2/5 w-50'>
             <div className='flex flex-col justify-center items-center sm:relative bottom-30 lg:bottom-0 lg:top-0'>
-                <Image className=' scale-170 pt-10 sm:scale-80 lg:scale-100 sm:pt-0 z-3 hover:scale-175 sm:hover:scale-105 transition-all duration-500' src={'/aika_no_bg.png'} width={800} height={800} alt='aika' />
-                <p className='w-70 rounded-full h-50 transform-3d translate-z-12 rotate-x-100 relative top-250 z-2
-                 translate-z-100 bg-pink-400'> </p>
+                <Image className=' scale-170 pt-10 sm:scale-80 lg:scale-100 sm:pt-0 hover:scale-175 sm:hover:scale-105 transition-all duration-500' src={'/aika_no_bg.png'} width={800} height={800} alt='aika' />
+                {/* <p className='w-70 rounded-full h-50 transform-3d translate-z-12 rotate-x-100 relative top-250 z-2
+                 translate-z-100 bg-pink-400'> </p> */}
             </div>
         </div>
         <div className='w-1/5 lg:block hidden'>
