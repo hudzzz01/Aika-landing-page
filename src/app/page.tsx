@@ -8,6 +8,8 @@ import json from  '../app/aika.json'
 import Image from "next/image";
 import FullData from "./components/FullData";
 import Storytelling from "./components/StoryTelling";
+import Tagline from "./components/Tagline";
+import SimpleFooter from "./components/SimpleFooter";
 
 
 export default function Home() {
@@ -38,6 +40,8 @@ export default function Home() {
               <About/>
               <FullData/>
               <Storytelling/>
+              <Tagline/>
+              <SimpleFooter/>
           
         
         

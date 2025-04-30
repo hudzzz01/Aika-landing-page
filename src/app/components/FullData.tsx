@@ -7,8 +7,8 @@ import { MdMilitaryTech } from 'react-icons/md';
 
 export default function FullData() {
   return (
-    <div className='flex justify-center items-center'>
-    <div className='w-400 h-100 lg:h-100 text-2xl xl:p-30 lg:p-20 p-10 flex lg:flex-row flex-col'>
+    <div className='flex justify-center items-center pt-10 sm:pt-100 lg:pt-0'>
+    <div className=' h-100 lg:h-100 text-2xl xl:p-30 lg:p-20 p-10 flex lg:flex-row flex-col'>
         <div className='w-full lg:w-1/4 hidden lg:flex justify-center items-center lg:pt-70'>
             <Image src="/aika_chibi.png" width={500} height={500} alt="aika" />
         </div>

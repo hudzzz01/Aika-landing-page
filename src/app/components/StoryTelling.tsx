@@ -1,6 +1,6 @@
 export default function Storytelling() {
     return (
-      <div className="mt-300 lg:mt-100 max-w-4xl mx-auto p-8 bg-gradient-to-b from-white via-pink-50 to-pink-200 rounded-3xl shadow-2xl border border-pink-200">
+      <div className="mt-250 sm:lg-200 lg:mt-150 max-w-4xl mx-auto p-8 bg-gradient-to-b from-white via-pink-50 to-pink-200 rounded-3xl shadow-2xl border border-pink-200">
         <h2 className="text-4xl font-bold mb-6 text-center text-pink-500">Narasi Storytelling</h2>
   
         <div className="text-gray-800 text-lg leading-relaxed space-y-6">
