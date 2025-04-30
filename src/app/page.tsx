@@ -13,8 +13,8 @@ import Storytelling from "./components/StoryTelling";
 export default function Home() {
   return (
       <Provider store={store}>
-      <div className="w-screen mx-auto">
-            <div className="w-full  overflow-x-hidden">
+      <div className="w-full mx-auto">
+            <div className="w-full  overflow-hidden">
               <Hero />
               
 
