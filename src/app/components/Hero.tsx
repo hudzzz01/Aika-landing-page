@@ -20,7 +20,7 @@ export default function Hero() {
     <div className='w-full h-140 hover:mt-10 transistion-all duration-500 bg-[url(/bg_aika.png)] hover:scale-110 sm:w-full sm:h-130 lg:h-150 xl:h-200 2xl:h-300 bg-cover flex flex-row pt-20 lg:ps-30'>
         <div className='w-2/5 sm:w-1/2 lg:w-2/5 flex h-100 justify-center items-center'>
             <div className=' hover:ps-10 sm:hover:p-s0 cursor-pointer sm:h-100 2xl:h-110 2xl:w-full h-110 lg:h-110 w-200 p-6 bg-white h-130 lg:rounded-tr-full xl:rounded-br-2xl xl:pt-12 xl:ps-0 2xl:rounded-tl-full 2xl:rounded-tr-none 2xl:rounded-br-2xl rounded-br-full shadow-2xl hover:shadow-3xl hover:scale-105 sm:hover:scale-110 transition-all duration-500'>
-                <div className='2xl:ps-60 lg:ps-10'>
+                <div className='2xl:ps-60 lg:ps-10 '>
 
                     <p className='text-lg sm:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl hover:scale-150 hover:ms-20 transition-all duration-500'>I'm </p>
                     <h1 className={`text-xl sm:text-3xl lg:text-4xl xl:text-7xl 2xl:text-8xl pt-2 animate-bounce ${colorClass} transition-all duration-500`}>Aika</h1>

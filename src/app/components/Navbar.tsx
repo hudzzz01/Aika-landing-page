@@ -59,8 +59,8 @@ export default function Navbar() {
             <div className=' items-center text-center flex gap-2'>
                 {/* <Image src="/logo_company_example(1).png" alt="logo" width={200} height={500} /> */}
                 {/* {themeLight &&     <div className='font-bold text-2xl ms-40 text-red-500 italic' >Work in progress</div>} */}
-                <p className='text-2xl ms-10'>Aika Site</p>
-                <p className='hover:cursor-pointer' onClick={() => window.open("https://www.instagram.com/aikaaa.vi/","_blank")} ><FaInstagram /></p>
+                <p className='text-xl lg:text-5xl ms-20'>Aika Site</p>
+                <p className='text-xl lg:text-5xl hover:cursor-pointer' onClick={() => window.open("https://www.instagram.com/aikaaa.vi/","_blank")} ><FaInstagram /></p>
             </div>
             <div className='gap-10 me-20 hidden md:flex'>
                 {menu.map((item, index) => {
