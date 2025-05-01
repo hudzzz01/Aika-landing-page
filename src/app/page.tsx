@@ -15,7 +15,7 @@ import SimpleFooter from "./components/SimpleFooter";
 export default function Home() {
   return (
       <Provider store={store}>
-      <div className="w-full mx-auto">
+      <div className="w-full mx-auto transition-all duration-500">
             <div className="w-full  overflow-hidden">
               <Hero />
               

@@ -86,7 +86,7 @@ export default function Hero() {
         </div>
         <div className='w-3/5 sm:w-1/2 lg:w-2/5 w-50'>
             <div className='flex flex-col justify-center items-center sm:relative bottom-30 lg:bottom-0 lg:top-0'>
-                <Image className=' scale-170 pt-10 sm:scale-80 lg:scale-100 sm:pt-0 hover:scale-175 sm:hover:scale-105 transition-all duration-500' src={'/aika_no_bg.png'} width={800} height={800} alt='aika' />
+                <Image className='hover:cursor-pointer scale-170 pt-10 sm:scale-80 lg:scale-100 sm:pt-0 hover:scale-175 sm:hover:scale-105 transition-all duration-500' src={'/aika_no_bg.png'} width={800} height={800} alt='aika' />
                 {/* <p className='w-70 rounded-full h-50 transform-3d translate-z-12 rotate-x-100 relative top-250 z-2
                  translate-z-100 bg-pink-400'> </p> */}
             </div>

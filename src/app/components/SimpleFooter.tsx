@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa"
+import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt, FaRegCopyright } from "react-icons/fa"
 
 const SimpleFooter = () => {
   const currentYear = new Date().getFullYear()
@@ -12,7 +12,7 @@ const SimpleFooter = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Tentang Kami</h3>
             <p className="text-gray-400 mb-4">
-              Kami berkomitmen untuk memberikan layanan terbaik dan pengalaman yang menyenangkan bagi semua pengguna.
+              Aika berkomitmen untuk memberikan layanan terbaik dan pengalaman yang menyenangkan bagi semua pengguna.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -33,29 +33,29 @@ const SimpleFooter = () => {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Beranda
+                  Aika
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="#about" className="text-gray-400 hover:text-white transition-colors">
                   Tentang
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Layanan
+                <a href="#fulldata" className="text-gray-400 hover:text-white transition-colors">
+                  Profil
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Kontak
+                <a href="#story" className="text-gray-400 hover:text-white transition-colors">
+                  Story
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
                   Kebijakan Privasi
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -63,7 +63,7 @@ const SimpleFooter = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Hubungi Kami</h3>
             <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
+              {/* <li className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="text-gray-400 mt-1 flex-shrink-0" />
                 <span className="text-gray-400">Jl. Contoh No. 123, Jakarta Pusat, Indonesia</span>
               </li>
@@ -74,6 +74,10 @@ const SimpleFooter = () => {
               <li className="flex items-center space-x-3">
                 <FaEnvelope className="text-gray-400 flex-shrink-0" />
                 <span className="text-gray-400">info@contoh.com</span>
+              </li> */}
+                <li  onClick={() => window.open("https://www.instagram.com/aikaaa.vi/","_blank")} className="flex items-center space-x-3 hover:cursor-pointer">
+                 <FaInstagram />
+                <span className="text-gray-400">aikaaa.vi</span>
               </li>
             </ul>
           </div>
@@ -84,7 +88,7 @@ const SimpleFooter = () => {
 
         {/* Copyright */}
         <div className="text-center text-gray-500 text-sm">
-          <p>&copy; {currentYear} Nama Perusahaan. Hak Cipta Dilindungi.</p>
+          <p>&copy; {currentYear} Rumput Studio. Hak Cipta Dilindungi.</p>
         </div>
       </div>
     </footer>

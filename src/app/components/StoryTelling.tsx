@@ -1,9 +1,12 @@
 export default function Storytelling() {
     return (
-      <div className="mt-250 sm:lg-200 lg:mt-150 max-w-4xl mx-auto p-8 bg-gradient-to-b from-white via-pink-50 to-pink-200 rounded-3xl shadow-2xl border border-pink-200">
-        <h2 className="text-4xl font-bold mb-6 text-center text-pink-500">Narasi Storytelling</h2>
+      <div className="pt-180 lg:pt-200">
+
+    
+      <div id="story" className=" mb-20 sm:lg-200 max-w-4xl mx-auto p-8 bg-gradient-to-b from-white via-pink-50 to-pink-200 rounded-3xl shadow-2xl border border-pink-200">
+        <h2 className="xl:text-3xl 2xl:text-4xl lg:text-xl sm:text-xl text-xl font-bold mb-6 text-center text-pink-500">Narasi Storytelling</h2>
   
-        <div className="text-gray-800 text-lg leading-relaxed space-y-6">
+        <div className="text-gray-800 text-lg leading-relaxed space-y-6 xl:text-xl 2xl:text-2xl lg:text-lg sm:text-sm text-sm">
           <p>
             Di langit malam yang penuh bintang dan rembulan, <strong>Michiru Suhayla Aika</strong>—atau biasa dipanggil <strong>Aika</strong>—lahir membawa harapan dan kedamaian.
             Sebagai makhluk dari <em>Ras Langit</em>, Aika dikaruniai telinga panjang yang mampu menangkap suara hati yang paling lirih,
@@ -26,6 +29,7 @@ export default function Storytelling() {
             Karena bahkan mereka yang pernah berjalan dalam badai, berhak untuk hidup di bawah sinar bintang.
           </p>
         </div>
+      </div>
       </div>
     );
   }

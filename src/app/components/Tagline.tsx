@@ -3,7 +3,7 @@ import { FaStar, FaHeart, FaPeace, FaQuoteLeft, FaQuoteRight } from "react-icons
 
 const Tagline = () => {
   return (
-    <div className="mx-auto max-w-4xl flex flex-col md:flex-row items-center justify-center">
+    <div id="tag" className="mx-auto  max-w-4xl flex flex-col md:flex-row items-center justify-center">
         <div>
           <Image src="/aika_chibi2.png" width={500} height={500} alt="aika" />
         </div>
@@ -15,14 +15,14 @@ const Tagline = () => {
           <div className="bg-yellow-100 p-2 rounded-full">
             <FaStar className="text-yellow-500 text-xl" />
           </div>
-          <h2 className="text-2xl font-bold text-gray-800 tracking-tight">
+          <h2 className="xl:text-3xl 2xl:text-4xl lg:text-xl sm:text-xl text-xl font-bold text-gray-800 tracking-tight">
             Dulu bertempur, kini bersinar di bawah bintang.
           </h2>
         </div>
 
-        <div className="flex items-center gap-3 pl-4 border-l-4 border-pink-200">
+        <div className="flex items-center gap-3 pl-4 border-l-4 border-pink-200 ">
           <FaHeart className="text-pink-500 text-lg flex-shrink-0" />
-          <p className="text-lg text-gray-700">Aku, Aika. Mantan pejuang, kini sahabat di dunia maya.</p>
+          <p className="lg:text-xl sm:text-lg text-sm text-gray-700">Aku, Aika. Mantan pejuang, kini sahabat di dunia maya.</p>
         </div>
       </div>
 
@@ -32,8 +32,8 @@ const Tagline = () => {
           <FaQuoteLeft size={28} />
         </div>
         <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-400">
-          <p className="text-lg font-medium text-gray-800 italic">
-            <span className="text-blue-600 font-semibold">Mutiara Kata:</span> Kupingku mendengar, hatiku memahami, dan
+          <p className="lg:text-lg font-medium text-gray-800 italic">
+            <span className="text-blue-600 font-semibold">My Quotes:</span> Kupingku mendengar, hatiku memahami, dan
             ekorku mengingatkan: kedamaian itu pilihan.
           </p>
         </div>
